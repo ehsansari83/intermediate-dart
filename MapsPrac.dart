@@ -1,9 +1,9 @@
-main(){
-// creating a new map (doctionary)
-var info = new Map();
-info.addAll({
-  "username":"Ehsan", "password":"heheh", "email":"ehsansari@gmail.com", "city":"Islamabad"
-  });
-print(info.keys);
-print(info.isEmpty);
+void main(){
+  var user = new Map();
+
+  user.addAll({'username':'Ehsan Ansari', 'password':'1223', 'PIN':4345, 'city':'Islamabad'});
+  print(user.containsValue(4345));
+
+
+
 }
